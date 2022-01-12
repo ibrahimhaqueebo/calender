@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .calender ul{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            grid-gap: 1em;
+        }
+        .calender li{
+            justify-content: center;
+            align-items: center;
+            font-size: 4em;
+            display: flex;
+           list-style: none;
+           background-color: lightsteelblue;
+           height: 125px;
+
+        }
+        .wick{
+            background-color: mediumseagreen !important;
+        }
+        .other{
+            background-color: red !important;
+        }
+        .tami{
+            width: 100%;
+            
+        }
+        .january{
+            font-size: 30px;
+            color: purple;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="calender">
+        <img class="tami" src="images/tami.png" alt="">
+        <h3 class="january">January 2022</h3>
+      <ul>
+          <li class="wick">sun</li>
+          <li class="wick">mon</li>
+          <li class="wick">tue</li>
+          <li class="wick">wed</li>
+          <li class="wick">thu</li>
+          <li class="wick">fri</li>
+          <li class="wick">sat</li>
+          <li class="other">31</li>
+          <li class="other">32</li>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li>10</li>
+          <li>11</li>
+          <li>12</li>
+          <li>13</li>
+          <li>14</li>
+          <li>15</li>
+          <li>16</li>
+          <li>17</li>
+          <li>18</li>
+          <li>19</li>
+          <li>20</li>
+          <li>21</li>
+          <li>22</li>
+          <li>23</li>
+          <li>24</li>
+          <li>25</li>
+          <li>26</li>
+          <li>27</li>
+          <li>28</li>
+          <li>29</li>
+          <li>30</li>
+          <li class="other">1</li>
+          <li class="other">2</li>
+          <li class="other">3</li>
+      </ul>
+    </div>
+</body>
+</html>

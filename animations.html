@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+     
+
+        @keyframes identifier {
+           0%{
+               left: 0px;
+           }
+           50%{
+               
+               top: 120px;
+           }
+           100%{
+               left: 800px;
+           }
+           
+       }
+     
+     .salid:hover .bol{
+         animation: identifier 2s ease-in 1s infinite alternate;
+         
+     }
+        .salid{
+            width: 100%;
+            height: 200px;
+            background-color: skyblue;
+        }
+        .bol{
+            width: 80px;
+            height: 80px;
+            border-radius: 50px;
+            background-color: purple;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="salid">
+        <div class="bol"></div>
+    </div>
+    
+</body>
+</html>
